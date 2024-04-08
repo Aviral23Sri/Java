@@ -10,7 +10,7 @@ public class sorting_list {
         list.add(9);
         list.add(10);
 
-        Collections.sort(list); // For Sorting the elements in an Array List
+        Collections.sort(list, Collections.reverseOrder()); // For Sorting the elements in an Array List in decending order 
         System.out.println(list);
     }
 }
